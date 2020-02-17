@@ -45,6 +45,7 @@
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
+		"v v v v v v v v v v v v"
 		"f f f f f f f f f f f f";
 }
 
@@ -71,6 +72,7 @@
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
+			"v v v v v v v v v v v v"
 			"f f f f f f f f f f f f";
 	}
 }
@@ -347,7 +349,7 @@ nav > ul li a:active {
 	
 } 
 
-.playStore {
+.playStore, .githubStore {
 	height: 75px;
 	margin-right: 24px;
 }
@@ -602,7 +604,64 @@ nav > ul li a:active {
 	
 } 
 
+// Videos
 
+.videos {
+	grid-area: v;
+	display: flex;
+	flex: 0 1 auto;
+	align-content: flex-start;
+	justify-content: flex-start;
+	flex-grow: 1;
+	flex-wrap: wrap;
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+
+.video {
+	display: flex;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: calc(100%/3);
+}
+
+@media only screen and (max-width: 992px) {
+
+	.videos {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.video {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+	
+}
+
+@media only screen and (max-width: 375px) {
+
+	.videos {
+		flex-grow: 1;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-top: 11px;
+	}
+
+	.video {
+		display: flex;
+		padding-top: 41px;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+	}
+	
+} 
 
 // Footer
 

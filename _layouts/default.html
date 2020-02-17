@@ -35,7 +35,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon }}">
+                            <img class="appIconLarge" src="{{ site.app_icon | relative_url }}">
                         </div>
                         <div class="appNamePriceContainer">
                             <h1 class="appName">
@@ -54,10 +54,16 @@
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% if site.github_link %}
+                                <a class="githubLink" href="{{site.github_link}}"><img class="githubStore" src="assets/github.png"></a>
+                            {% endif %}
+                            {% if site.appstore_link %}
+                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% endif %}
                         </div>
                     </div>
                     {% include features.html %}
+                    {% include videos.html %}
                     {% include footer.html %}
                     {% include appstoreimages.html %}
                 </div>
