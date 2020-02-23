@@ -34,4 +34,4 @@ Currently, the back-end (qemu) is mostly working. It works as well as qemu on ma
 
 ## How can I contribute?
 
-We need all the help we can get! We need both people to work on improving/optimizing the qemu backend as well as people working on the UI and front-end. You can check out our [Github](https://github.com/utmap) and join our [Discord](https://discord.gg/UV2RUgD).
+We need all the help we can get! We need both people to work on improving/optimizing the qemu backend as well as people working on the UI and front-end. You can check out our [Github](https://github.com/utmapp/) and join our [Discord](https://discord.gg/UV2RUgD).
