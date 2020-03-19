@@ -16,8 +16,6 @@ This project is still under development and there is no plan for a release anyti
 
 Currently, UTM does not require a jailbreak to use. It works on iOS 11 and above. However, it is possible that Apple changes the private APIs in the future and break compatibility with non-jailbroken devices. And because of the use of private APIs and the fact that Apple explicitly prohibits JIT code, it is unlikely that UTM will ever be in the App Store and will only be able to run through sideloading (restrictions are discussed below).
 
-Another thing is that in order to comply with the W^X restrictions in the iOS kernel, TCG can only run at about 70% of the speed it would run without the changes. However, that is still fast enough to be usable in many cases, especially in console-only or low-graphics use cases. Potentially in the future, we might maintain a jailbreak app that can run at full speed.
-
 ## How do I sideload an app?
 
 Sideloading allows you to load unofficial apps on your iOS device. If you have a free Apple account, you must re-sign the app every 7 days. If you have a paid ($99/year) Apple developer account, you must re-sign the app every year. For more information and other options, search for "ios sideloading" and you can find resources online.

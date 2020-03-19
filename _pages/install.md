@@ -8,7 +8,7 @@ UTM does not require a jailbreak to use, but you must sideload it. If you are ne
 
 * Free developer accounts must re-sign every 7 days
 * Paid developer accounts must re-sign every 1 year
-* iOS 13.3.1 broke the ability to sign with free accounts, so stay on <= 13.3 if you have not updated
+* iOS 13.3.1 has a signing bug with free accounts, you can use any lower or higher iOS version
 
 ## Download
 
