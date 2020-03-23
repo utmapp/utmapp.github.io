@@ -16,7 +16,13 @@ UTM does not require a jailbreak to use, but you must sideload it. If you are ne
 
 ## Signing
 
-A free and easy way to re-sign an IPA is with [iOS App Signer][2]. There are also various "cloud signing" services and "uuid registration" services that allow you to sign IPAs at a fraction of the cost of a paid developer account.
+If you are jailbroken, you can install the unsigned IPA directly with Filza. You should _not_ re-sign it.
+
+If you are running stock iOS, a free and easy way to re-sign an IPA is with [iOS App Signer][2]. Then you can install it with iTunes, Music app, or Xcode.
+
+There are many "cloud" signing services including AppCake that do **not** work with UTM because they use the wrong kind of signing certificate. If you get a crash while trying to start a VM, it is likely that your signing certificate was invalid.
+
+You can check if you have the right signing certificate by going to `Settings -> General -> Profiles & Device Management`. If the certificate used for signing UTM is listed under `Developer App`, then it is good. If it is listed under anything else such as `Enterprise App`, then it is the wrong certificate.
 
 ## Help and Support
 
