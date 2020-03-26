@@ -10,11 +10,19 @@ UTM does not require a jailbreak to use, but you must sideload it. If you are ne
 * Paid developer accounts must re-sign every 1 year
 * iOS 13.3.1 has a signing bug with free accounts, you can use any lower or higher iOS version
 
-## Download
+## AltStore
+
+The recommended way is to use [AltStore][4] which manages the re-signing and updates automatically.
+
+1. Install [AltStore][4]
+2. Add the source: **https://alt.getutm.app**
+3. Download UTM from AltStore
+
+*Note: at this time, 3rd party repos require a beta of AltStore which is available only to the developer's Patreon supporters.*
+
+## Manual Install
 
 [You can download the latest unsigned IPA release from Github.][1]
-
-## Signing
 
 If you are jailbroken, you can install the unsigned IPA directly with Filza. You should _not_ re-sign it.
 
@@ -31,3 +39,4 @@ Please [join our Discord][3] for help and support.
   [1]: https://github.com/utmapp/UTM/releases/latest
   [2]: https://dantheman827.github.io/ios-app-signer/
   [3]: https://discord.gg/UV2RUgD
+  [4]: https://altstore.io
