@@ -12,13 +12,23 @@ UTM does not require a jailbreak to use, but you must sideload it. If you are ne
 
 ## AltStore
 
-The recommended way is to use [AltStore][4] which manages the re-signing and updates automatically.
+The recommended way is to use [AltStore][4] which manages re-signing automatically.
+
+### AltStore Repository
+
+Note: at this time, 3rd party repos require a beta of AltStore which is available only to the developer's Patreon supporters. When installing from the repository, you can recieve update prompts from AltStore.
 
 1. Install [AltStore][4]
 2. Add the source: **https://alt.getutm.app**
 3. Download UTM from AltStore
 
-*Note: at this time, 3rd party repos require a beta of AltStore which is available only to the developer's Patreon supporters.*
+### AltStore Sideloading
+
+For non beta-testers, the public release of AltStore lacks the ability to add repositories and check updates but can still manage re-signing automatically.
+
+1. Install [AltStore][4]
+2. Download the [latest IPA release][1] on your device
+3. Open the IPA with AltStore
 
 ## Manual Install
 
