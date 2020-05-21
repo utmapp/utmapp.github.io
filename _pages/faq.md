@@ -16,6 +16,10 @@ Currently, UTM does not require a jailbreak to use. It works on iOS 11 and above
 
 Sideloading allows you to load unofficial apps on your iOS device. If you have a free Apple account, you must re-sign the app every 7 days. If you have a paid ($99/year) Apple developer account, you must re-sign the app every year. For more information checkout the [install page]({% link _pages/install.md %}).
 
+## How do I create a VM?
+
+Check out [the user guide]({% link _pages/guide.md %}) for usage directions. Check out [this page]({% link _pages/vms.md %}) for some prebuilt VMs you can try.
+
 ## How does UTM work?
 
 The majority of the work is done by [qemu](https://www.qemu.org). Because iOS devices lack hardware virtualization support, we cannot use the KVM accelerator and instead use the TCG accelerator which does dynamic code translation and JIT compilation. UTM also includes a [SPICE](https://www.spice-space.org) client written for Metal. This connects with the SPICE server in qemu and allows for some para-virtualization as the QXL graphics driver running on the guest OS can send low-level draw commands directly to Metal APIs.

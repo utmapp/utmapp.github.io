@@ -11,6 +11,31 @@ include_in_header: true
 
 See [this page]({% link _pages/install.md %}).
 
+# Quick Start
+
+To run an emulated PC, first obtain a bootable ISO of the OS you wish to install (Linux, Windows, etc) and copy it to your device.
+
+1. Launch UTM and press the + button on the top right to create a new VM.
+2. Give it a name and keep Architecture, System, and Memory on their default value.
+3. Select "Setup Drives/Images".
+4. Press the + button to add a new drive.
+5. Select "Path" to open the image selector.
+6. Press + again and choose "Import".
+7. Choose your installer ISO
+8. A new entry will be added to the list. Select this entry.
+9. Select "Image Type" and change it to "CD/DVD Image".
+10. Press Back
+11. Press + again to add a new drive.
+12. Select "Path" to open the image selector.
+13. Press + again and choose "Create".
+14. You will create a disk image. Give it any name (e.g. "hda.img") and the maximum size in MiB (e.g. "10000"). The drive will grow until it hits this size or your device runs out of space.
+15. Press Save
+16. A new entry will be added to the list. Select this entry.
+17. The default location works here. Press Back.
+18. Press Back
+19. Press Save
+20. You can now boot into this VM and install the OS from the ISO to your disk image. Once the installation completes, it is safe to edit the VM and delete the CD drive and ISO.
+
 # Settings
 
 ## Background Options
@@ -135,7 +160,7 @@ You can select an existing image in the list or import/create a new image. Only 
 
 Press the + button on the top right to either Import or Create a new image. If you choose to Import an image, you can presented with a file selection screen where you can choose a disk image (e.g. ISO file) from any location. A copy of that file will be made into the `.utm` package. Once the import completes, it is safe to delete the original file.
 
-If you choose to Create a new image, you can give it a file name (can be anything, the extension doesn't matter) and a size. Note the created disk image will be a QCOW2 formatted file that will auto-grow up to the specified size.
+If you choose to Create a new image, you can give it a file name (can be anything, the extension doesn't matter) and a size. Note the created disk image will be a QCOW2 formatted file that will auto-grow up to the specified size. Current UTM limitation prevents you from creating more than one disk image per launch.
 
 ### Image Type
 
