@@ -36,6 +36,8 @@ To run an emulated PC, first obtain a bootable ISO of the OS you wish to install
 19. Press Save
 20. You can now boot into this VM and install the OS from the ISO to your disk image. Once the installation completes, it is safe to edit the VM and delete the CD drive and ISO.
 
+If you are on a supported OS, it is highly recommended that you install [SPICE tools](https://www.spice-space.org/download.html). You need the SPICE guest agent to use shared clipboard and auto-change resolution. You need QXL drivers for faster VGA drawing. You need WebDAV daemon for shared folders.
+
 # Settings
 
 ## Background Options

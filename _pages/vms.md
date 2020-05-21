@@ -78,7 +78,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 
 ## Other
 
-### [ReactOS (0.4.14 RC10)](https://github.com/utmapp/vm-downloads/releases/download/reactos-0.4.14-RC10/ReactOS.utm.zip)
+### [ReactOS 0.4.14](https://github.com/utmapp/vm-downloads/releases/download/reactos-0.4.14-RC10/ReactOS.utm.zip)
 
 | Architecture | x86_64          |
 | Memory       | 512MiB          |
