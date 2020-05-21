@@ -55,13 +55,25 @@ features                                  :
   - title                                 : Easy to Use 
     description                           : Configure and customize your VM in a native UI
     fontawesome_icon_name                 : cog
+  
+  - title                                 : Console Mode 
+    description                           : Run headless server VMs in a native terminal
+    fontawesome_icon_name                 : terminal
+  
+  - title                                 : Sharing 
+    description                           : Shared directory, clipboard, and port forwarding
+    fontawesome_icon_name                 : sync
+  
+  - title                                 : Multiple Inputs
+    description                           : Support external keyboards, mouse, touchpads, Apple Pencil, and controllers
+    fontawesome_icon_name                 : keyboard
 
 videos                                    :
   - fsDEei0XS94
   - O19dNVTBCAs
   - q-ESpe-bq04
 
-footer_message                            : This project is in early development and there is no public release planned anytime soon. We need help from both frontend and backend developers! Join our Discord for active development information.
+footer_message                            : 
 
 # Theme Settings
 topbar_color                              : "#000000"
