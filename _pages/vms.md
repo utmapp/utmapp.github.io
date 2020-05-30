@@ -54,6 +54,47 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | `root`          |
 | Password     | `root`          |
 
+### [Debian 10.4 (LDXE) ARM](https://github.com/utmapp/vm-downloads/releases/tag/debian-10.4-ldxe)
+
+| Architecture | aarch64         |
+| Memory       | 1024MiB         |
+| Disk         | 10GiB           |
+| Display      | VGA+Console     |
+| SPICE tools  | Yes\*           |
+| Sharing      | Yes             |
+| Username     | `root`          |
+| Password     | `password`      |
+| Username     | `debian`        |
+| Password     | `debian`        |
+
+### [Debian 10.4 (Xfce) ARM](https://github.com/utmapp/vm-downloads/releases/tag/debian-10.4-xfce)
+
+| Architecture | aarch64         |
+| Memory       | 1024MiB         |
+| Disk         | 10GiB           |
+| Display      | VGA+Console     |
+| SPICE tools  | Yes\*           |
+| Sharing      | Yes             |
+| Username     | `root`          |
+| Password     | `password`      |
+| Username     | `debian`        |
+| Password     | `debian`        |
+
+\* Due to a [bug](https://bugzilla.redhat.com/show_bug.cgi?id=1290586) auto resolution does not work. Run `xrandr --output Virtual-1 --auto` to resize.
+
+### [Debian 10.4 (Minimal) ARM](https://github.com/utmapp/vm-downloads/releases/download/debian-10.4/Debian-ARM-UTM.zip)
+
+| Architecture | aarch64         |
+| Memory       | 1024MiB         |
+| Disk         | 10GiB           |
+| Display      | Console         |
+| SPICE tools  | No              |
+| Sharing      | No              |
+| Username     | `root`          |
+| Password     | `password`      |
+| Username     | `debian`        |
+| Password     | `debian`        |
+
 ### [Ubuntu 14.04](https://github.com/utmapp/vm-downloads/releases/download/ubuntu-14.04/Ubuntu-14.04.utm.zip)
 
 | Architecture | x86_64          |
