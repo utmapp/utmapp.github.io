@@ -4,7 +4,7 @@ title: VMs
 include_in_header: true
 ---
 
-Try out UTM with these free prebuilt VMs! Your performance may vary depending on your device and the OS. For the best experience, choose an OS with SPICE tools and Sharing features installed.
+Try out UTM with these free prebuilt VMs! Your performance may vary depending on your device and the OS. For the best experience, choose an OS with SPICE tools and Sharing features installed. For new users, the Debian images are recommended.
 
 ## Android
 
@@ -67,8 +67,6 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | `debian`        |
 | Password     | `debian`        |
 
-**Recommend Linux image.**
-
 * Custom built from a minimal Linux install
 * [i3 Window Manager](https://i3wm.org) with [LightDM](https://wiki.debian.org/LightDM) for maximum performance
 * Customized xterm theme
@@ -76,7 +74,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 * In VGA mode, `/media/share` mounts the share directory at startup
 * Alias commands `resize` refreshes resolution of the display and `soundon` enables audio
 
-### [Debian 10.4 (LDXE) ARM](https://github.com/utmapp/vm-downloads/releases/tag/debian-10.4-ldxe)
+### [Debian 10.4 (LDXE) ARM](https://github.com/utmapp/vm-downloads/releases/download/debian-10.4-ldxe/Debian-ARM-LXDE-UTM.zip)
 
 | Architecture | aarch64         |
 | Memory       | 1024MiB         |
@@ -89,7 +87,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | `debian`        |
 | Password     | `debian`        |
 
-### [Debian 10.4 (Xfce) ARM](https://github.com/utmapp/vm-downloads/releases/tag/debian-10.4-xfce)
+### [Debian 10.4 (Xfce) ARM](https://github.com/utmapp/vm-downloads/releases/download/debian-10.4-xfce/Debian-ARM-Xfce-UTM.zip)
 
 | Architecture | aarch64         |
 | Memory       | 1024MiB         |
