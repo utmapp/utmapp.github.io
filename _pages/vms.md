@@ -8,7 +8,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 
 ## Android
 
-### [Android 2.2](https://github.com/utmapp/vm-downloads/releases/download/android-x86-2.2/Android-2.2.utm.zip)
+### [Android 2.2](https://github.com/utmapp/vm-downloads/releases/download/android-x86-2.2/Android-2.2-utm.zip)
 
 | Architecture | i386            |
 | Memory       | 512MiB          |
@@ -19,7 +19,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | none            |
 | Password     | none            |
 
-### [Android 4.4](https://github.com/utmapp/vm-downloads/releases/download/android-x86-4.4/Android-4.4.utm.zip)
+### [Android 4.4](https://github.com/utmapp/vm-downloads/releases/download/android-x86-4.4/Android-4.4-utm.zip)
 
 | Architecture | i386            |
 | Memory       | 1024MiB         |
@@ -30,7 +30,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | none            |
 | Password     | none            |
 
-### [Android 9.0](https://github.com/utmapp/vm-downloads/releases/download/android-x86-9.0/Android-9.0.utm.zip)
+### [Android 9.0](https://github.com/utmapp/vm-downloads/releases/download/android-x86-9.0/Android-9.0-utm.zip)
 
 | Architecture | x86_64          |
 | Memory       | 1024MiB         |
@@ -115,7 +115,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | `debian`        |
 | Password     | `debian`        |
 
-### [Ubuntu 14.04](https://github.com/utmapp/vm-downloads/releases/download/ubuntu-14.04/Ubuntu-14.04.utm.zip)
+### [Ubuntu 14.04](https://github.com/utmapp/vm-downloads/releases/download/ubuntu-14.04/Ubuntu-14.04-utm.zip)
 
 | Architecture | x86_64          |
 | Memory       | 512MiB          |
@@ -126,7 +126,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 | Username     | `ubuntu`        |
 | Password     | `ubuntu`        |
 
-### [Ubuntu 18.04](https://github.com/utmapp/vm-downloads/releases/download/ubuntu-18.04/Ubuntu-18.04.utm.7z)
+### [Ubuntu 18.04](https://github.com/utmapp/vm-downloads/releases/download/ubuntu-18.04/Ubuntu-18.04-utm.7z)
 
 | Architecture | x86_64          |
 | Memory       | 1024MiB         |
@@ -139,7 +139,7 @@ Try out UTM with these free prebuilt VMs! Your performance may vary depending on
 
 ## Other
 
-### [ReactOS 0.4.14](https://github.com/utmapp/vm-downloads/releases/download/reactos-0.4.14-RC10/ReactOS.utm.zip)
+### [ReactOS 0.4.14](https://github.com/utmapp/vm-downloads/releases/download/reactos-0.4.14-RC10/ReactOS-utm.zip)
 
 | Architecture | x86_64          |
 | Memory       | 512MiB          |
