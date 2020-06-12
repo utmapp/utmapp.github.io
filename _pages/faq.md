@@ -64,3 +64,13 @@ On older systems booting any VM may take a very long time. Other common issues a
 ## How much RAM can I use for a VM?
 
 A good rule of thumb is to allocate no more than 1/4 of your device's total memory. iOS will kill any app that uses 40-50% or more of the total system memory. Additionally, UTM/QEMU consumes some memory itself. If you keep seeing the low memory warning, you should lower the amount allocated.
+
+# Support
+
+## I found a bug/crash or something else unexpected
+
+Please open an issue on [Github](https://github.com/utmapp/) so it can be tracked. Be sure to follow the template when creating an issue!
+
+## I need help with UTM
+
+You can join the community run [Discord](https://discord.gg/UV2RUgD). Please read and follow the rules.
