@@ -13,7 +13,9 @@ See [this page]({% link _pages/install.md %}).
 
 # Quick Start
 
-To run an emulated PC, first obtain a bootable ISO of the OS you wish to install (Linux, Windows, etc) and copy it to your device.
+The easiest way to try out UTM is with one of the [prebuilt VMs]({% link _pages/vms.md %}). Just download, unzip, and open the `.utm` from your device.
+
+Otherwise, to build a new VM, you need to obtain a bootable ISO of the OS you wish to install (Linux, Windows, etc) and copy it to your device.
 
 1. Launch UTM and press the + button on the top right to create a new VM.
 2. Give it a name and keep Architecture, System, and Memory on their default value.
