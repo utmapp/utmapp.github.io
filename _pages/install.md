@@ -4,11 +4,12 @@ title: Install
 include_in_header: true
 ---
 
-UTM does not require a jailbreak to use, but you must sideload it. If you are new to sideloading, it is a way to use a developer's certificate to load unapproved apps on a non-jailbroken iOS device. There are a few limitations to sideloading:
+**If you are running iOS 11, 12, or 13**: UTM does not require a jailbreak to use, but you must sideload it. If you are new to sideloading, it is a way to use a developer's certificate to load unapproved apps on a non-jailbroken iOS device. There are a few limitations to sideloading:
 
 * Free developer accounts must re-sign every 7 days
 * Paid developer accounts must re-sign every 1 year
-* iOS 13.3.1 has a signing bug with free accounts, you can use any lower or higher iOS version
+
+**If you are running iOS 14**: UTM requires(\*) a jailbreak to use. Follow the manual install instructions. (\* You can also run UTM without a jailbreak by running it tethered to Xcode. However, that is not really convenient.)
 
 ## AltStore
 
@@ -19,7 +20,7 @@ The recommended way is to use [AltStore][4] which manages re-signing automatical
 Note: at this time, 3rd party repos require a beta of AltStore which is available only to the developer's Patreon supporters. When installing from the repository, you can recieve update prompts from AltStore.
 
 1. Install [AltStore][4]
-2. Add the source: **https://alt.getutm.app**
+2. Add the source: [https://alt.getutm.app][5]
 3. Download UTM from AltStore
 
 ### AltStore Sideloading
@@ -50,3 +51,4 @@ Please [join our Discord][3] for help and support.
   [2]: https://dantheman827.github.io/ios-app-signer/
   [3]: https://discord.gg/UV2RUgD
   [4]: https://altstore.io
+  [5]: altstore://source?url=https://alt.getutm.app

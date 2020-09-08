@@ -15,7 +15,7 @@ UTM is an app for running other operating systems on your iPhone or iPad. It is 
 
 ## Does this require a jailbreak?
 
-Currently, UTM does not require a jailbreak to use. It works on iOS 11 and above. However, it is possible that Apple changes the private APIs in the future and break compatibility with non-jailbroken devices. And because of the use of private APIs and the fact that Apple explicitly prohibits JIT code, it is unlikely that UTM will ever be in the App Store and will only be able to run through sideloading (restrictions are discussed below).
+UTM is supported on iOS 11, 12, and 13 for non-jailbroken devices through sideloading. UTM requires a jailbreak to use on iOS 14.
 
 ## How do I sideload an app?
 

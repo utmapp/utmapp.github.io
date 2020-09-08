@@ -45,7 +45,7 @@ features                                  :
     fontawesome_icon_name                 : tachometer-alt
 
   - title                                 : High Compatibility
-    description                           : iOS 11+ supported. Works on iPhone and iPad. No jailbreak needed
+    description                           : iOS 11+ supported. Works on iPhone and iPad. No jailbreak needed for iOS 11-13
     fontawesome_icon_name                 : check
 
   - title                                 : Free and Open Source
