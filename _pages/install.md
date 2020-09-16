@@ -9,7 +9,7 @@ include_in_header: true
 * Free developer accounts must re-sign every 7 days
 * Paid developer accounts must re-sign every 1 year
 
-**If you are running iOS 14**: UTM requires(\*) a jailbreak to use. Follow the manual install instructions. (\* You can also run UTM without a jailbreak by running it tethered to Xcode. However, that is not really convenient.)
+**If you are running iOS 14**: UTM requires(\*) a jailbreak to use. Follow the manual install instructions. (\* You can also run UTM without a jailbreak by [running it tethered to Xcode][6]. However, that is not really convenient.)
 
 ## AltStore
 
@@ -52,3 +52,4 @@ Please [join our Discord][3] for help and support.
   [3]: https://discord.gg/UV2RUgD
   [4]: https://altstore.io
   [5]: altstore://source?url=https://alt.getutm.app
+  [6]: https://github.com/utmapp/UTM/blob/master/Documentation/TetheredLaunch.md
