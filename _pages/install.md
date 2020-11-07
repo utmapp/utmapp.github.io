@@ -4,12 +4,12 @@ title: Install
 include_in_header: true
 ---
 
-**If you are running iOS 11, 12, or 13**: UTM does not require a jailbreak to use, but you must sideload it. If you are new to sideloading, it is a way to use a developer's certificate to load unapproved apps on a non-jailbroken iOS device. There are a few limitations to sideloading:
+**If you are running iOS 11, 12, 13, or 14.2+**: UTM does not require a jailbreak to use, but you must sideload it. If you are new to sideloading, it is a way to use a developer's certificate to load unapproved apps on a non-jailbroken iOS device. There are a few limitations to sideloading:
 
 * Free developer accounts must re-sign every 7 days
 * Paid developer accounts must re-sign every 1 year
 
-**If you are running iOS 14**: UTM requires(\*) a jailbreak to use. Follow the manual install instructions. (\* You can also run UTM without a jailbreak by [running it tethered to Xcode][6]. However, that is not really convenient.)
+**If you are running iOS 14.0 - 14.1**: UTM requires(\*) a jailbreak to use on iOS 14.0, 14.0.1, and iOS 14.2. Follow the manual install instructions. (\* You can also run UTM without a jailbreak by [running it tethered to Xcode][6] if you need to be on those versions. However, that is not really convenient.) UTM does not require a jailbreak or tether on iOS 14.2 and higher.
 
 ## AltStore
 
