@@ -39,7 +39,7 @@ For non beta-testers, the public release of AltStore lacks the ability to add re
 
 If you are jailbroken, you can install the unsigned IPA directly with Filza. You should _not_ re-sign it.
 
-If you are running stock iOS, a free and easy way to re-sign an IPA is with [iOS App Signer][2]. Then you can install it with iTunes, Music app, or Xcode.
+If you are running stock iOS, a free and easy way to re-sign an IPA is with [iOS App Signer][2]. Make sure to uncheck "No get-task-allow" if you see the option. Then you can install it with iTunes, Music, Xcode, or Air Drop.
 
 There are many "cloud" signing services including AppCake that do **not** work with UTM because they use the wrong kind of signing certificate. If you get a crash or a black screen while trying to start a VM, it is likely that your signing certificate was invalid.
 
