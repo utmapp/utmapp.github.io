@@ -4,14 +4,14 @@ title: Install
 include_in_header: true
 ---
 
-**If you are running iOS 11, 12, 13, or 14.2**: UTM does not require a jailbreak to use, but you must sideload it. If you are new to sideloading, it is a way to use a developer's certificate to load unapproved apps on a non-jailbroken iOS device. There are a few limitations to sideloading:
+# Non-Jailbroken Devices
+
+**If you are running iOS 11, 12, or 13**: UTM does not require a jailbreak to use, but you must sideload it. If you are new to sideloading, it is a way to use a developer's certificate to load unapproved apps on a non-jailbroken iOS device. There are a few limitations to sideloading:
 
 * Free developer accounts must re-sign every 7 days
 * Paid developer accounts must re-sign every 1 year
 
-Note that for iOS 14.2, you need to be running AltStore 1.4.2 or follow the manual install instructions. The default install of AltStore at this time is not 1.4.2.
-
-**If you are running any other version of iOS 14**: UTM requires(\*) a jailbreak to use. Follow the manual install instructions. (\* You can also run UTM without a jailbreak by [running it tethered to Xcode][6]. However, that is not really convenient.)
+**If you are running iOS 14**: UTM only works on non-jailbroken phones if you are on iOS 14.2+ and your device has an Apple A12 chip or newer. Otherwise, you need to follow the jailbroken instruction below.
 
 ## AltStore
 
@@ -33,19 +33,17 @@ For non beta-testers, the public release of AltStore lacks the ability to add re
 2. Download the [latest IPA release][1] on your device
 3. Open the IPA with AltStore
 
-## Manual Install
-
-[You can download the latest unsigned IPA release from Github.][1]
-
-If you are jailbroken, you can install the unsigned IPA directly with Filza. You should _not_ re-sign it.
-
-If you are running stock iOS, a free and easy way to re-sign an IPA is with [iOS App Signer][2]. Make sure to uncheck "No get-task-allow" if you see the option. Then you can install it with iTunes, Music, Xcode, or Air Drop.
+## Other Methods
 
 There are many "cloud" signing services including AppCake that do **not** work with UTM because they use the wrong kind of signing certificate. If you get a crash or a black screen while trying to start a VM, it is likely that your signing certificate was invalid.
 
 You can check if you have the right signing certificate by going to `Settings -> General -> Profiles & Device Management`. If the certificate used for signing UTM is listed under `Developer App`, then it is good. If it is listed under anything else such as `Enterprise App`, then it is the wrong certificate.
 
-## Help and Support
+# Jailbroken Devices
+
+Add the source **https://cydia.getutm.app/** to Cydia or Sileo to install UTM.
+
+# Help and Support
 
 Please [join our Discord][3] for help and support.
 
