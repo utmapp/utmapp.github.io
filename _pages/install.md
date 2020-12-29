@@ -41,7 +41,7 @@ You can check if you have the right signing certificate by going to `Settings ->
 
 # Jailbroken Devices
 
-Add the source **https://cydia.getutm.app/** to Cydia or Sileo to install UTM.
+Add the source [https://cydia.getutm.app/][7] to Cydia or Sileo to install UTM.
 
 # Help and Support
 
@@ -53,3 +53,4 @@ Please [join our Discord][3] for help and support.
   [4]: https://altstore.io
   [5]: altstore://source?url=https://alt.getutm.app
   [6]: https://github.com/utmapp/UTM/blob/master/Documentation/TetheredLaunch.md
+  [7]: cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.getutm.app/
