@@ -39,7 +39,7 @@ We need all the help we can get! We need both people to work on improving/optimi
 
 ## How do I create a VM?
 
-Check out [the user guide]({% link _pages/guide.md %}) for usage directions. Check out [this page]({% link _pages/vms.md %}) for some prebuilt VMs you can try.
+Check out [the user guide]({% link _pages/guide.md %}) for usage directions. Check out [this page](https://mac.getutm.app/gallery) for some prebuilt VMs you can try.
 
 ## Help! I hid the toolbar!
 

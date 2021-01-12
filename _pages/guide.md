@@ -13,32 +13,7 @@ See [this page]({% link _pages/install.md %}).
 
 # Quick Start
 
-The easiest way to try out UTM is with one of the [prebuilt VMs]({% link _pages/vms.md %}). Just download, unzip, and open the `.utm` from your device.
-
-Otherwise, to build a new VM, you need to obtain a bootable ISO of the OS you wish to install (Linux, Windows, etc) and copy it to your device.
-
-1. Launch UTM and press the + button on the top right to create a new VM.
-2. Give it a name and keep Architecture, System, and Memory on their default value.
-3. Select "Setup Drives/Images".
-4. Press the + button to add a new drive.
-5. Select "Path" to open the image selector.
-6. Press + again and choose "Import".
-7. Choose your installer ISO
-8. A new entry will be added to the list. Select this entry.
-9. Select "Image Type" and change it to "CD/DVD Image".
-10. Press Back
-11. Press + again to add a new drive.
-12. Select "Path" to open the image selector.
-13. Press + again and choose "Create".
-14. You will create a disk image. Give it any name (e.g. "hda.img") and the maximum size in MiB (e.g. "10000"). The drive will grow until it hits this size or your device runs out of space.
-15. Press Save
-16. A new entry will be added to the list. Select this entry.
-17. The default location works here. Press Back.
-18. Press Back
-19. Press Save
-20. You can now boot into this VM and install the OS from the ISO to your disk image. Once the installation completes, it is safe to edit the VM and delete the CD drive and ISO.
-
-If you are on a supported OS, it is highly recommended that you install [SPICE tools](https://www.spice-space.org/download.html). You need the SPICE guest agent to use shared clipboard and auto-change resolution. You need QXL drivers for faster VGA drawing. You need WebDAV daemon for shared folders.
+The easiest way to try out UTM is with one of the [prebuilt VMs](https://mac.getutm.com/gallery/). Just download, unzip, and open the `.utm` from your device.
 
 # Settings
 
