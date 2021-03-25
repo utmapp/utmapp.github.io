@@ -13,7 +13,7 @@ See [this page]({% link _pages/install.md %}).
 
 # Quick Start
 
-The easiest way to try out UTM is with one of the [prebuilt VMs](https://mac.getutm.com/gallery/). Just download, unzip, and open the `.utm` from your device.
+The easiest way to try out UTM is with one of the [prebuilt VMs](https://mac.getutm.app/gallery/). Just download, unzip, and open the `.utm` from your device.
 
 # Settings
 
